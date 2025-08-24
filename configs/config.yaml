@@ -1,0 +1,18 @@
+random_state: 42
+test_size: 0.2
+val_size: 0.1
+target: is_fraud
+
+model:
+  type: logistic_regression   # options: logistic_regression, random_forest
+  logistic_regression:
+    C: 0.5
+    max_iter: 200
+    class_weight: balanced
+  random_forest:
+    n_estimators: 300
+    max_depth: 12
+    class_weight: balanced
+    n_jobs: -1
+
+threshold: 0.35  # decision threshold tuned for higher recall
