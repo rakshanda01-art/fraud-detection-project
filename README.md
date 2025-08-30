@@ -1,6 +1,6 @@
 # Fraud Detection (End-to-End: Training → API → Docker → CI)
 
-A complete, **publish-ready** fraud detection project you can push to GitHub.  
+
 It covers: synthetic data generation, feature engineering, model training & evaluation, FastAPI for serving predictions, Dockerization, tests, and CI (pytest).
 
 ## Project structure
